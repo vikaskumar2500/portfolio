@@ -2,7 +2,7 @@
 
 import { useAsync } from 'react-use'
 
-import { Keyword } from '@/components'
+import { Keyword, Title } from '@/components'
 
 const About = () => {
   const { loading, value } = useAsync(async () => {
@@ -11,11 +11,9 @@ const About = () => {
   })
 
   return (
-    <div className="flex flex-col justify-center text-primary">
-      <h1 id="paypal" className="text-center text-3xl leading-none">
-        About
-      </h1>
-      <p className="text-center">
+    <div className="container mx-auto flex flex-col justify-center px-6">
+      <Title className="text-center text-3xl leading-none">About</Title>
+      <p className="my-4 text-center">
         The goal of this site is not only to have some CV-web site to share,
         It&apos;s first of all an example of react-based app with fully passed
         google audit*. In future I&apos;m planning to convert it to kind of
@@ -33,8 +31,9 @@ const About = () => {
           />
         )}
       </div>
-      <p className="text-center text-xs text-secondary">
-        *Tested in Chrome 91.0.4472.164 in <Keyword>incognito mode</Keyword>
+      <p className="my-2 text-center text-xs">
+        *Tested in Chrome Version 120.0.6099.130 in{' '}
+        <Keyword>incognito mode</Keyword>
       </p>
     </div>
   )

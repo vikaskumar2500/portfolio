@@ -24,7 +24,19 @@ export const Projects = () => {
             <span className="loading loading-ring h-[75px] w-[75px]"></span>
           </div>
         )}
-        {!loading && error && <p>{error.message}</p>}
+        {!loading && error && (
+          <div className="flex h-[380px] w-full items-center justify-center">
+            Check
+            <a
+              href={siteConfig.social.github}
+              className="mx-2 cursor-pointer text-declaration underline"
+              target="_blank"
+            >
+              my Github profile
+            </a>
+            for more details
+          </div>
+        )}
         {!loading &&
           repositories?.map?.((repository: any) => (
             <div

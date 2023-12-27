@@ -21,14 +21,9 @@ export const GalaxyHeader = memo(({ className }: GalaxyProps) => (
       className,
     )}
   >
-    <Image
-      className="absolute inset-0 h-full w-full animate-fadeIn object-cover object-center"
+    <div
+      className="absolute inset-0 h-full w-full animate-fadeIn bg-[url('/img/universe.webp')] object-cover object-center"
       style={{ '--opacityTo': 0.75 } as CSSProperties}
-      src={universe}
-      alt="Universe"
-      priority={false}
-      placeholder="empty"
-      fill
     />
 
     {/* NebulaeWrapper */}
