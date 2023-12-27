@@ -1,0 +1,43 @@
+"use client";
+
+import React from "react";
+import { SectionHeading } from "../section-heading";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { experiencesData } from "@/lib/data";
+
+const Experience = () => {
+  return (
+    <section id="experience">
+      <SectionHeading>My Experience</SectionHeading>
+      <VerticalTimeline>
+        {experiencesData.map((experienceItem, index) => (
+          <VerticalTimelineElement
+            key={index}
+            contentStyle={{
+              background: "#f3f4f6",
+              boxShadow: "none",
+              border: "1px solid rgba(0,0,0,0.05)",
+              textAlign: "left",
+              padding: "1.3rem 2rem",
+            }}
+            contentArrowStyle={{
+              borderRight: "0.4rem solid #9ca3af",
+            }}
+            date={experienceItem.date}
+            icon={experienceItem.icon}
+          >
+            <h3>{experienceItem.title}</h3>
+            <p>{experienceItem?.location}</p>
+            <p>{experienceItem.description}</p>
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+    </section>
+  );
+};
+
+export default Experience;
