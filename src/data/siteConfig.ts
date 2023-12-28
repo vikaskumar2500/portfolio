@@ -11,9 +11,9 @@ export default {
   githubUsername: 'EugeneDraitsev',
   authorDescription: `Hi, my name is Eugene and I'm a software engineer. I like math, science, cats, algorithms, good UX
   and other boring things. I started working as a developer in 2011 and received my system engineer diploma
-  at BSUIR in 2013. Almost all my experience has been as a fullstack developer (Node/Java + Frontend). 
+  from BSUIR in 2013. Almost all my experience has been as a fullstack developer (Node/Java + Frontend). 
   I really like functional programming, serverless approach and cloud platforms. 
-  I'm currently working as a fullstack developer and mostly working with React, TypeScript, GraphQL, and AWS.`,
+  Currently, I'm working as a fullstack developer, mainly with Svelte, React, TypeScript, k8s, and AWS/GCP`,
   details: {
     name: 'Eugene Draitsev',
     birthDate: '1990-10-02',
@@ -64,7 +64,7 @@ export default {
       location: 'Stockholm, Sweden',
       occupation: 'Senior Frontend Engineer',
       description: `Redesign an e-commerce frontend solution from React to Sveltekit. Developing k8s infrastructure
-       for frontend,  CMS and e2e test. Integration with payment platforms, scalability and performance improvements.`,
+       for frontend, CMS and e2e tests. Integrations with payment platforms, scalability and performance improvements.`,
     },
     {
       company: 'Daniel Wellington',

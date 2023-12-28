@@ -1,3 +1,5 @@
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+
 const withPWA = require('next-pwa')({
   dest: 'public',
 })
@@ -8,4 +10,4 @@ const nextConfig = {
   experimental: { optimizeCss: true },
 }
 
-module.exports = withPWA(nextConfig)
+module.exports = PHASE_DEVELOPMENT_SERVER ? nextConfig : withPWA(nextConfig)
