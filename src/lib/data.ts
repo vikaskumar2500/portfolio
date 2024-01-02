@@ -1,7 +1,7 @@
 import taskify from "../../public/projects/taskify.png";
 import gmailClone from "../../public/projects/gmail-clone.png";
 import todoList from "../../public/projects/todo-list.png";
-import { Building2, GraduationCap } from "lucide-react";
+import { Building2, GraduationCap, SchoolIcon } from "lucide-react";
 
 import React from "react";
 export const linksData = [
@@ -87,8 +87,9 @@ export const experiencesData = [
   {
     id: 0,
     title: "Sharpener bootcamp",
+    location: "Remote",
     description:
-      "Immediate after graduation I join Sharpener Tech for full-stack developement bootcamp in remote",
+      "Immediate after graduation I joined Sharpener Tech for full-stack developement bootcamp in remote",
     icon: React.createElement(GraduationCap),
     date: "2023",
   },
@@ -98,7 +99,7 @@ export const experiencesData = [
     location: "Jaipur Rajasthan",
     description:
       "I graduated after 5 months of studying. I immediately get an internship as a frontend role",
-    icon: React.createElement(Building2),
+    icon: React.createElement(SchoolIcon),
     data: "2023",
   },
 ];

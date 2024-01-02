@@ -20,15 +20,13 @@ const IntroPage = () => {
       ref={ref}
       className="flex flex-col justify-center items-center w-[80%] md:w-[40rem] gap-5 mt-20 mb-20"
     >
-      <div>
+      <div className="relative w-12 h-12">
         <Image
           src="/photo.jpeg"
           alt="Vikas Kumar's photo"
-          width={50}
-          height={25}
+          fill
           priority
           className="rounded-full border md:w-20 h-20 flex items-center justify-center ring-slate-200 ring-4"
-          objectFit="cover"
           quality={100}
         />
       </div>

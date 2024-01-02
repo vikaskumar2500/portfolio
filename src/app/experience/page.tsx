@@ -1,7 +1,8 @@
+import { Experience } from "@/components/main/experience";
 import React from "react";
 
 const ExperiencePage = () => {
-  return <div>This is experience section.</div>;
+  return <Experience />;
 };
 
 export default ExperiencePage;
