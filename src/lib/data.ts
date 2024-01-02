@@ -51,10 +51,10 @@ export const projectData = [
 
   {
     id: 1,
-    title: "Paisadekho",
+    title: "Gmail Clone",
     description:
-      "I am working as a full-stack developer on this startup project for last 1 month. This is the fintech project",
-    tags: ["React.js", "Next.js", "Node.js", "Drizzle", "Tailwind"],
+      " Clone of Gmail where you can send messages to other users along with authentication features is included",
+    tags: ["React.js", "Next.js", "Firebase", "Tailwind"],
     imageUrl: gmailClone,
   },
   {
@@ -84,22 +84,23 @@ export const skillsData = [
 ];
 
 export const experiencesData = [
+  
   {
     id: 0,
-    title: "Sharpener bootcamp",
+    title: "SOFTWARE ENGINEERING INTERN",
+    location: "Jaipur Rajasthan",
+    description:
+      "I graduated after 5 months of continuous studying. I immediately get an internship as a frontend role on various project",
+    icon: React.createElement(SchoolIcon),
+    data: "Oct 2023",
+  },
+  {
+    id: 1,
+    title: "SHARPENER BOOTCAMP",
     location: "Remote",
     description:
       "Immediate after graduation I joined Sharpener Tech for full-stack developement bootcamp in remote",
     icon: React.createElement(GraduationCap),
-    date: "2023",
-  },
-  {
-    id: 1,
-    title: "Full-stack Internship",
-    location: "Jaipur Rajasthan",
-    description:
-      "I graduated after 5 months of studying. I immediately get an internship as a frontend role",
-    icon: React.createElement(SchoolIcon),
-    data: "2023",
+    date: "May 2023",
   },
 ];
