@@ -32,11 +32,11 @@ const IntroPage = () => {
       </div>
       <div className="flex items-center w-full mt-5">
         <h1 className="lg:text-3xl md:text-3xl text-lg text-center">
-          <strong>Hello, I'm Vikas Kumar.</strong> I'm a{" "}
+          <strong>Hello, I&apos;m Vikas Kumar.</strong> I'm a{" "}
           <strong>frontend developer</strong> with{" "}
           <strong>more then 1 year</strong> of experience. I enjoy building web
           applications and my focus is{" "}
-          <span className="font-semibold underline">React(Next.js)</span>,{" "}
+          <span className="font-semibold underline">React(Next.js)</span>&lsquo;
           <span className="font-semibold">TypeScript</span> and{" "}
           <span className="font-semibold">Tailwind CSS.</span>
         </h1>
