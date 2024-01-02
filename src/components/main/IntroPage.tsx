@@ -23,7 +23,7 @@ const IntroPage = () => {
       <div className="relative w-12 h-12">
         <Image
           src="/photo.jpeg"
-          alt="Vikas Kumar's photo"
+          alt="Vikas Kumar&apos;s photo"
           fill
           priority
           className="rounded-full border md:w-20 h-20 flex items-center justify-center ring-slate-200 ring-4"
@@ -32,7 +32,7 @@ const IntroPage = () => {
       </div>
       <div className="flex items-center w-full mt-5">
         <h1 className="lg:text-3xl md:text-3xl text-lg text-center">
-          <strong>Hello, I&apos;m Vikas Kumar.</strong> I'm a{" "}
+          <strong>Hello, I&apos;m Vikas Kumar.</strong> I&apos;m a{" "}
           <strong>frontend developer</strong> with{" "}
           <strong>more then 1 year</strong> of experience. I enjoy building web
           applications and my focus is{" "}

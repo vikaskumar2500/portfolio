@@ -27,7 +27,7 @@ const About = () => {
         </span>{" "}
         from the prestigious{" "}
         <span className="font-semibold">
-          National Institue of Technology, Silchar
+          National Institue of Technology&lsquo; Silchar
         </span>{" "}
         and my final aggregate was{" "}
         <span className="font-semibold">8.11 CGPA.</span> During the college I
@@ -37,7 +37,7 @@ const About = () => {
         </span>{" "}
         course from the <span className="font-semibold">Coding Ninjas </span>and
         am Currently furtheing my education in Full Stack Developement from the{" "}
-        <span className="font-semibold">Sharpener Tech.</span> Simultaneously, I
+        <span className="font-semibold">Sharpener Tech.</span> Simultaneously&lsquo; I
         have started the internship at{" "}
         <span className="font-semibold">ABOVE EDGE GROUP OF COMPANIES</span>{" "}
         which providing me hands-on-experience in real-world web developement
