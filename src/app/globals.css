@@ -48,10 +48,10 @@ html {
 }
 
 body {
-  font-size: 0.875rem;
-  line-height: 1.43;
-  letter-spacing: 0.01em;
-  font-family: Roboto Mono, Lucida Console, 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: Roboto Mono, monospace, 'Lucida Console', 'Courier New';
 }
 
 a {
