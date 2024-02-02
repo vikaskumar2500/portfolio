@@ -1,28 +1,28 @@
-'use client'
+'use client';
 
-import { memo, useEffect } from 'react'
+import { memo, useEffect } from 'react';
 
 const FontLoaderComponent = () => {
   useEffect(() => {
     // Prevents duplicate loading
     if (document.querySelector('#RobotoMonoLink')) {
-      return
+      return;
     }
 
     const timer = setTimeout(() => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.id = 'RobotoMonoLink'
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.id = 'RobotoMonoLink';
       link.href =
-        'https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200..700&display=swap'
-      link.crossOrigin = 'anonymous'
-      document.head.appendChild(link)
-    }, 1_000) // Delay of 1 second
+        'https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400..700&display=swap';
+      link.crossOrigin = 'anonymous';
+      document.head.appendChild(link);
+    }); // Delay of 1 second
 
-    return () => clearTimeout(timer) // Clean up the timer if the component unmounts
-  }, [])
+    return () => clearTimeout(timer); // Clean up the timer if the component unmounts
+  }, []);
 
-  return <></>
-}
+  return <></>;
+};
 
-export const FontLoader = memo(FontLoaderComponent)
+export const FontLoader = memo(FontLoaderComponent);
