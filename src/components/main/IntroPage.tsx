@@ -32,22 +32,22 @@ const IntroPage = () => {
       </div>
       <div className="flex items-center w-full mt-5">
         <h1 className="lg:text-3xl md:text-3xl text-lg text-center">
-          <strong>Hello, I'm Vikas Kumar.</strong> I'm a{" "}
+          <strong>Hello, I&apos;m Vikas Kumar.</strong> I&apos;m a{" "}
           <strong>Full Stack Developer</strong> with{" "}
           <strong>more than 6 months</strong> of hands-on experience. I
           specialize in building robust web and mobile applications, leveraging
           cutting-edge technologies and frameworks. My expertise lies in{" "}
           <span className="font-semibold underline">Next.js</span>,{" "}
-          <span className="font-semibold">TypeScript</span>, and{" "}
+          <span className="font-semibold">TypeScript</span>,{" "}
           <span className="font-semibold">Tailwind CSS</span>,{" "}
           <span className="font-semibold">React Native</span>, and{" "}
           <span className="font-semibold">Expo</span>, ensuring scalable and
-          responsive user interfaces and mobile apps. Additionally, I'm
+          responsive user interfaces and mobile apps. Additionally, I&apos;m
           proficient in backend development using{" "}
           <span className="font-semibold underline">Node.js</span> and{" "}
           <span className="font-semibold">Express.js</span>, enabling seamless
           integration with frontend systems. With a passion for clean code and
-          innovative solutions, I'm dedicated to delivering high-quality
+          innovative solutions, I&apos;m dedicated to delivering high-quality
           software products that exceed expectations.
         </h1>
       </div>
