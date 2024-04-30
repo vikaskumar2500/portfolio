@@ -1,7 +1,7 @@
 import taskify from "../../public/projects/taskify.png";
 import gmailClone from "../../public/projects/gmail-clone.png";
 import todoList from "../../public/projects/todo-list.png";
-import { Building2, GraduationCap, SchoolIcon } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 
 import React from "react";
 export const linksData = [
@@ -74,6 +74,8 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "React Native",
+  "Expo",
   "SQL",
   "Git",
   "Tailwind",
@@ -84,22 +86,22 @@ export const skillsData = [
 ];
 
 export const experiencesData = [
-  
   {
     id: 0,
-    title: "SOFTWARE ENGINEERING INTERN",
-    location: "Jaipur Rajasthan",
+    title: "SOFTWARE DEVELOPER",
+    location: "Pratap Nagar, Jaipur, Rajasthan",
     description:
-      "I graduated after 5 months of continuous studying. I immediately get an internship as a frontend role on various project",
-    icon: React.createElement(SchoolIcon),
-    data: "Oct 2023",
+      "I started my career as a frontend developer but have since transitioned into a full-stack developer role. I have extensive experience working on both web and mobile applications, contributing to various projects with a focus on delivering high-quality user experiences.",
+
+    icon: React.createElement(GraduationCap),
+    date: "Oct 2023",
   },
   {
     id: 1,
     title: "SHARPENER BOOTCAMP",
     location: "Remote",
     description:
-      "Immediate after graduation I joined Sharpener Tech for full-stack developement bootcamp in remote",
+      "Immediately after graduation, I joined Sharpener Tech for a full-stack development bootcamp conducted remotely. During the program, I gained comprehensive skills in full-stack development. Now, equipped with practical experience and a solid foundation, I am eager to apply my knowledge in real-world projects.",
     icon: React.createElement(GraduationCap),
     date: "May 2023",
   },
