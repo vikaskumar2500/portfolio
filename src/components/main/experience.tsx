@@ -15,12 +15,12 @@ import { useInView } from "react-intersection-observer";
 import { useActiveSection } from "@/hooks/use-active-section";
 
 export const Experience = () => {
-  const { ref, inView } = useInView({ threshold: 0.75 });
-  const { activeSection, setActiveSection } = useActiveSection();
+    const { ref, inView } = useInView({ threshold: 0.75 });
+    const { activeSection, setActiveSection } = useActiveSection();
 
-  useEffect(() => {
-    if (inView) setActiveSection("Experience");
-  }, [inView, setActiveSection]);
+    useEffect(() => {
+      if (inView) setActiveSection("Experience");
+    }, [inView, setActiveSection]);
 
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">

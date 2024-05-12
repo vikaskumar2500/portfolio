@@ -31,9 +31,9 @@ export default function Projects() {
           ({ title, description, id, imageUrl, tags }, index) => (
             <li
               key={id}
-              className="relative group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 mb-3 sm;mb-8  last:mb-0 even:pl-8 hover:bg-gray-200 transition mt-8"
-            >
-              <div className="pt-4 pb-7 py-4 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
+              className="relative group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 mb-3 sm;mb-8  last:mb-0 even:pl-8 hover:bg-gray-200 transition mt-8 flex flex-col    md:block"
+            > 
+              <div className="pt-4 pb-7 py-4 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full md:group-even:ml-[18rem]">
                 <h3 className="text-2xl font-semibold">{title}</h3>
                 <p className="mt-2 leading-relaxed text-gray-700">
                   {description}
@@ -53,7 +53,7 @@ export default function Projects() {
                 src={imageUrl}
                 alt="Project I worked on"
                 quality={95}
-                className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] transition group-hover:-translate-x-3 group-even:group-hover:translate-x-3 group-hover:translate-y-3 group-even:group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:rotate-2 group-even:right-[initial] group-even:-left-40"
+                className="md:absolute md:top-8 md:-right-40 px-5 w-full md:w-[28.25rem] rounded-t-lg shadow-2xl group-even:-right-[initial] transition group-hover:-translate-x-3 group-even:group-hover:translate-x-3 group-hover:translate-y-3 group-even:group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:rotate-2 group-even:right-[initial] md:group-even:-left-40"
               />
             </li>
           )
