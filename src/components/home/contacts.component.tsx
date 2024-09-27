@@ -24,7 +24,7 @@ export const Contacts = () => {
         className="card w-full max-w-[900px] rounded bg-base-200 p-4 shadow-xl"
       >
         <ContactForm />
-        <div className="text flex w-1/2  items-center justify-center space-x-2 py-4">
+        <div className="text flex w-full md:w-1/2  items-center justify-center space-x-2 py-4">
           {siteConfig.social.github && (
             <a
               className="transition-all hover:text-gray-500"
