@@ -1,20 +1,22 @@
-import type { Metadata } from 'next';
-import type { ReactNode } from 'react';
+import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 
-import { GalaxyHeader } from '@/components';
-import { Header } from '@/components/layout/header.component';
-import siteConfig from '../data/siteConfig';
-import './globals.css';
+import { GalaxyHeader } from '@/components'
+import { Header } from '@/components/layout/header.component'
+import siteConfig from '../data/siteConfig'
+import './globals.css'
+import { Toaster } from 'sonner'
+import { sendEmailViaSMTP } from '@/lib/nodemailer'
 
 export const metadata: Metadata = {
   title: `CV | ${siteConfig.siteTitle}`,
   description: siteConfig.siteDescription,
   keywords: siteConfig.keyWords,
-};
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <head>
         <meta
           name="viewport"
@@ -22,11 +24,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <meta name="theme-color" content="#424242" />
       </head>
-      <body>
+      <body suppressHydrationWarning={true}>
+        <Toaster richColors position="bottom-right" />
         <Header />
         <GalaxyHeader />
         {children}
       </body>
     </html>
-  );
+  )
 }
