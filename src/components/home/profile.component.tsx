@@ -35,8 +35,9 @@ export const Profile = () => {
             You can find my{' '}
             <a
               className="cursor-pointer text-declaration underline"
-              href="/eugene-draitsev.pdf"
+              href="/Vikas_Kumar.pdf"
               target="_blank"
+              download={true}
             >
               detailed CV in pdf here
             </a>
