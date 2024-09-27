@@ -14,16 +14,15 @@ export default function Home() {
     <div className="relative mt-[-100px] flex flex-col items-center px-4 pb-[20px]">
       <Profile />
 
-      <Title>Experience</Title>
+      
       <Experience />
 
-      <Title>Abilities</Title>
+      
       <Abilities />
 
-      <Title>Projects</Title>
+      
       <Projects />
 
-      <Title>Contacts</Title>
       <Contacts />
     </div>
   )
