@@ -73,16 +73,17 @@ export const Experience = memo(() => {
                     <Declaration>{education.location}</Declaration>
                     <div>
                       <span>{education.degreeLevel}</span>
-                      {
-                        <span>
-                          ({education.startYear} — {education.endYear})
-                        </span>
-                      }
+                    </div>
+                    <div>
+                      <span>Year: </span>
+                      <span>
+                        {education.startYear} — {education.endYear}
+                      </span>
                     </div>
                     {/* <div>{education.specialization}</div> */}
-                    <div className='flex flow-row gap-2'>
-                      <span>CGPA:</span>
-                      <span>{education.aggregate}/10</span>
+                    <div className="flow-row flex w-full items-center justify-center gap-2 text-center md:items-start md:justify-normal">
+                      <div>CGPA:</div>
+                      <div>{education.aggregate}/10</div>
                     </div>
                   </div>
                 </div>

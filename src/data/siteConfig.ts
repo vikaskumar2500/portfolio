@@ -14,7 +14,7 @@ I have a keen interest in functional programming, serverless architectures, and 
   details: {
     name: 'Vikas Kumar',
     birthDate: '2000-05-02',
-    position: 'Frontend Develover',
+    position: 'Frontend Developer',
     location: 'Jaipur, Rajasthan',
   },
   skills: [
@@ -55,7 +55,7 @@ I have a keen interest in functional programming, serverless architectures, and 
     {
       company: 'Above Edge Tech Solutions Private Limited',
       companyIcon: 'AETSPL.png',
-      date: 'June 2023 -  June 2024',
+      date: 'June 2023 - June 2024',
       duration: '1 year',
       location: 'Jaipur, India',
       occupation: 'Frontend Engineer',

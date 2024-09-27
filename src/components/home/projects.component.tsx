@@ -9,13 +9,21 @@ import { useInView } from 'react-intersection-observer'
 import { useActiveSection } from '@/hooks/use-active-section'
 import { useEffect } from 'react'
 
-const githubUrl = `{https://api.github.com/users/${siteConfig.authorName}/repos?type=owner&sort=updated&per_page=5&page=1}`
+const githubUrl = "https://api.github.com/users/vikaskumar2500/repos?type=owner&sort=updated&per_page=5&page=1"
 
 export const Projects = () => {
   const state = useAsync(async () => {
-    const response = await fetch(githubUrl)
-    return response.json()
-  }, [])
+    const response = await fetch(githubUrl, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  }, []);
   const { ref, inView } = useInView({ threshold: 0.2 })
   const { activeSection, setActiveSection } = useActiveSection()
 
