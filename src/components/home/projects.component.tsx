@@ -9,9 +9,11 @@ import { useInView } from 'react-intersection-observer'
 import { useActiveSection } from '@/hooks/use-active-section'
 import { useEffect } from 'react'
 
+const githubUrl = `{https://api.github.com/users/${siteConfig.authorName}/repos?type=owner&sort=updated&per_page=5&page=1}`
+
 export const Projects = () => {
   const state = useAsync(async () => {
-    const response = await fetch(process.env.NEXT_PUBLIC_GITHUB_URL!)
+    const response = await fetch(githubUrl)
     return response.json()
   }, [])
   const { ref, inView } = useInView({ threshold: 0.2 })
@@ -24,7 +26,11 @@ export const Projects = () => {
   const { loading, error, value: repositories } = state
 
   return (
-    <section id="projects" ref={ref} className="flex scroll-mt-10 mt-12 flex-col items-center mx-auto w-full">
+    <section
+      id="projects"
+      ref={ref}
+      className="mx-auto mt-12 flex w-full scroll-mt-10 flex-col items-center"
+    >
       <Title className="text-center">Projects</Title>
       <div
         id="projects"

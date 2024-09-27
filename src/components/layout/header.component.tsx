@@ -26,7 +26,11 @@ export const Header = () => {
       className="fixed left-0 top-0 z-10 flex w-full items-center justify-between text-white transition-colors duration-100"
     >
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
-        <Link href={'https:devvikas.info'} rel="noopener noreferrer">devvikas.info</Link>
+        <Link href="https://devvikas.info" passHref legacyBehavior>
+          <a>
+            devvikas.info
+          </a>
+        </Link>
       </div>
       <MobileHeader />
       <nav className=" container mx-auto hidden items-center justify-between px-4 py-4 md:flex">
