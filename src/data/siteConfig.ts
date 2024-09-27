@@ -85,7 +85,7 @@ I have a keen interest in functional programming, serverless architectures, and 
   background_color: '#000',
   theme_color: '#424242',
   display: 'minimal-ui',
-  pdf: 'static/eugene-draitsev.pdf',
+  pdf: 'static/Vikas_Kumar.pdf',
   headerLinks: [
     {
       label: 'Home',
