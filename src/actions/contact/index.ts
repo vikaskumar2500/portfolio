@@ -12,7 +12,6 @@ export const createContact = async (data: FieldTypes) => {
     // fetching existing details
     let contact = await Contact.findOne({ email: data.email })
 
-    console.log("contact", contact);
     if (!contact) {
       // user contact is not present
       contact = await Contact.create({

@@ -2,7 +2,7 @@
 import { FaTelegram, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 import siteConfig from '@/data/siteConfig'
-import { SubTitle, Title } from '@/components'
+import { Title } from '@/components'
 import ContactForm from '../layout/contact-form'
 import { useInView } from 'react-intersection-observer'
 import { useActiveSection } from '@/hooks/use-active-section'

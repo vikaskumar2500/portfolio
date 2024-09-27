@@ -4,7 +4,6 @@ import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 import { CgClose } from 'react-icons/cg'
 import siteConfig from '@/data/siteConfig'
 import Link from 'next/link'
-import { useParams, usePathname } from 'next/navigation'
 import { useActiveSection } from '@/hooks/use-active-section'
 
 export const MobileHeader = () => {
@@ -16,7 +15,6 @@ export const MobileHeader = () => {
     setOpen(false);
   },[activeSection])
 
-  console.log("active section", activeSection);
 
   return (
     <div className="pr-5 md:hidden">
