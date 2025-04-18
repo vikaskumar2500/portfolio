@@ -9,8 +9,10 @@ export default {
   ] as string[],
   authorName: 'Vikas Kumar',
   githubUsername: 'vikaskumar2500',
-  authorDescription: `Hi, I'm Vikas, a passionate software engineer with a strong foundation in mathematics, data structures, algorithms, and web development. I have worked as a frontend developer from June 2023 to June 2024, during which I built comprehensive expertise in both web and app development.
-I have a keen interest in functional programming, serverless architectures, and leveraging cloud platforms to build scalable and efficient applications. Currently, I'm seeking a frontend developer role where I can apply my technical skills and innovative mindset to create impactful solutions.`,
+
+  authorDescription: `Hi, I’m Vikas — a dedicated software engineer with a solid foundation in mathematics, data structures, algorithms, and modern web development. From June 2023 to June 2024, I worked as a frontend developer, gaining hands-on experience in building robust and user-friendly web and mobile applications.
+
+My interests lie in functional programming, serverless architectures, and cloud platforms, where I enjoy designing scalable, efficient, and maintainable solutions. I’m currently seeking a developer role that allows me to leverage my technical expertise and creative problem-solving skills to contribute to meaningful and impactful projects.`,
   details: {
     name: 'Vikas Kumar',
     birthDate: '2000-05-02',
@@ -55,8 +57,7 @@ I have a keen interest in functional programming, serverless architectures, and 
     {
       company: 'Above Edge Tech Solutions Private Limited',
       companyIcon: 'AETSPL.png',
-      date: 'June 2023 - June 2024',
-      duration: '1 year',
+      date: 'Jun 2023 - Jun 2024',
       location: 'Jaipur, India',
       occupation: 'Frontend Engineer',
       description: `Developed a Fintech B2B platform that streamlines the conversion of offline data into an online system for seamless, daily updates. The platform enables business partners to independently apply for loans on behalf of their customers, automating key processes and reducing manual effort. This system also includes features for secure data handling, real-time updates, and enhanced transparency in loan applications and approvals.`,
@@ -79,7 +80,7 @@ I have a keen interest in functional programming, serverless architectures, and 
     linkedin: 'https://www.linkedin.com/in/vikas-kumar25/',
     github: 'https://github.com/vikaskumar2500',
     email: 'vikas.nits8084@gmail.com',
-    leetcode: '',
+    leetcode: 'https://leetcode.com/u/vikaskumar0205/',
   },
   siteUrl: 'https://devvikas.info/',
   background_color: '#000',
