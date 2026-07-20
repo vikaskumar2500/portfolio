@@ -12,6 +12,7 @@ import {
 export default function Home() {
   return (
     <div className="relative mt-[-100px] flex flex-col items-center px-4 pb-[20px]">
+      <Title>hi</Title>
       <Profile />
       <Experience />
       <Abilities />
